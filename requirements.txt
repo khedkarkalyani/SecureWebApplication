@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 flask
 flask-sqlalchemy
 flask-jwt-extended
 werkzeug
 python-dotenv
+=======
+flask
+flask-sqlalchemy
+flask-jwt-extended
+werkzeug
+python-dotenv
+>>>>>>> 7893cc392e29d0e212cd33257d9a70a2db5784f0
