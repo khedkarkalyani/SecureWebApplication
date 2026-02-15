@@ -1,8 +1,12 @@
 from flask import Flask, render_template, request, redirect, url_for
 import sqlite3
 from flask_bcrypt import Bcrypt
+from config import Config 
 
 app = Flask(__name__)
+app.config.from_object(Config)
+app.config['GITHUB_CLIENT_ID'] = "Ov23liytuNLdouTLoGrA"
+app.config['GITHUB_CLIENT_SECRET'] = "5c8141a6f5bab6969c5ad4094bf32b1eefc94942"
 bcrypt = Bcrypt(app)
 
 # -----------------------------
